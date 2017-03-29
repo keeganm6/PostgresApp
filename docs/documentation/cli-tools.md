@@ -16,6 +16,7 @@ The easiest way to configure your PATH is to execute the following command:
 sudo mkdir -p /etc/paths.d &&
 echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
 ```
+Depending on your MacOS (this certainly goes for Sierra) you need to edit the ```~/.profile``` instead of the ```/etc/path.d```.
 
 Don't forget to close the Terminal window and open a new one for changes to take effect.
 
